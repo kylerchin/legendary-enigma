@@ -10,18 +10,18 @@ from src.follow_protocol import follow_protocol
 from src.unfollow_protocol import unfollow_protocol
 
 bot = InstaBot(
-    login="username",
-    password="password",
-    like_per_day=1000,
-    comments_per_day=0,
-    tag_list=['follow4follow', 'f4f', 'cute', 'l:212999109'],
-    tag_blacklist=['rain', 'thunderstorm'],
+    login="yk3music",
+    password="X-e}0ZwcHS`CVtE4hpsHQ[./#6D`l}",
+    like_per_day=4000,
+    comments_per_day=1000,
+    tag_list=['musicmakers','ableton','abletonlive','abletonpush','musicproducer','musicproducers','musicproduction'],
+    tag_blacklist=['stupididioteug24948t9244'],
     user_blacklist={},
-    max_like_for_one_tag=50,
-    follow_per_day=300,
+    max_like_for_one_tag=500,
+    follow_per_day=0,
     follow_time=1 * 60 * 60,
-    unfollow_per_day=300,
-    unfollow_break_min=15,
+    unfollow_per_day=0,
+    unfollow_break_min=10,
     unfollow_break_max=30,
     log_mod=0,
     proxy='',
@@ -41,8 +41,8 @@ bot = InstaBot(
     ## Will do partial matches; i.e. 'mozart' will block 'legend_mozart'
     ### 'free_followers' will be blocked because it contains 'free'
     unwanted_username_list=[
-        'second', 'stuff', 'art', 'project', 'love', 'life', 'food', 'blog',
-        'free', 'keren', 'photo', 'graphy', 'indo', 'travel', 'art', 'shop',
+        'second', 'stuff', 'art', 'project', 'love', 'life', 'food',
+        'free', 'keren', 'photo', 'graphy', 'indo', 'shop',
         'store', 'sex', 'toko', 'jual', 'online', 'murah', 'jam', 'kaos',
         'case', 'baju', 'fashion', 'corp', 'tas', 'butik', 'grosir', 'karpet',
         'sosis', 'salon', 'skin', 'care', 'cloth', 'tech', 'rental', 'kamera',
